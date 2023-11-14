@@ -1,27 +1,31 @@
-Jordan:  # Riders Name
+Rider2:  # Riders Name
+  R02: 
+    Desc: 'Baseline'
+    ValidLaps: [7,8,9,10,11,12]  # accelerating still up until start of lap 7 (wrong gear before lap 6)
   R03: 
-    Desc: 'Baseline'
-    ValidLaps: [3,4,5,6,7,8,9,10,11]
+    Desc: 'Rod Only'
+    ValidLaps: [6,7,8,9,10,11]  # accelerating still up until start of lap 6
   R04:  
-    Desc: 'Baseline'
-    ValidLaps: [3,4,5,6,7,8,9]
-  R05:  
-    Desc: 'Rod'
-    ValidLaps: [3,4,5,6,7,8,9,10]
-  R06:  
     Desc: '50mm Disc'
-    ValidLaps: [3,4,5,6,7]
-  R07:  
+    ValidLaps: [6,7,8,9,10,11]  # accelerating still up until start of lap 6
+  R05:  
     Desc: '60mm Disc'
-    ValidLaps: [6,7,8]
-  R08:  
+    ValidLaps: [5,6,7,8,9,10]  # missing record in lap 4 and accelerating still until lap 5
+  R06:  
+    Desc: 'Baseline 2'
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating still up until start of lap 5
+  R07:  
     Desc: '80mm Disc'
-    ValidLaps: [3,4,5,6,7,8,9]
-  R09:  
+    ValidLaps: [5,6,7,8,9,10]  # track pos not correct before lap 5
+  R08:  
     Desc: '100mm Disc'
-    ValidLaps: [3,4,5,6,7,8]
+    ValidLaps: [6,7,8,9,10,11,12,13]  # accelerating still up until start of lap 6
+  R09:  
+    Desc: 'Baseline 3'
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating still up until start of lap 5
   R10:  
     Desc: 'Shuffle'
-    ValidLaps: [3,4,5,6,7,8,9,10,11]
+    ValidLaps: [4,5,6,7,8,9,10,11,12,13,14,15,16]
+    Sprocket: 12
 
 
